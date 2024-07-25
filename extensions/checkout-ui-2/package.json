@@ -1,0 +1,21 @@
+{
+  "name": "checkout-ui-2",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@shopify/ui-extensions": "2024.7.x",
+    "@shopify/ui-extensions-react": "2024.7.x",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.0.0",
+    "jest": "^29.7.0",
+    "react-reconciler": "0.29.0"
+  }
+}
