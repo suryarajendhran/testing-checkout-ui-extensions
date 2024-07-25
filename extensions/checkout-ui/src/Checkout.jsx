@@ -1,8 +1,8 @@
 import {
-  reactExtension,
   Banner,
   BlockStack,
   Text,
+  reactExtension,
   useApi,
   useTranslate,
 } from "@shopify/ui-extensions-react/checkout";
@@ -15,7 +15,6 @@ export function Extension() {
   const translate = useTranslate();
   const { extension } = useApi();
 
-  // 3. Render a UI
   return (
     <BlockStack border={"dotted"} padding={"tight"}>
       <Banner title="checkout-ui">

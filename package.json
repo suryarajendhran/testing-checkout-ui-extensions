@@ -8,18 +8,18 @@
     "dev": "shopify app dev",
     "info": "shopify app info",
     "generate": "shopify app generate",
-    "deploy": "shopify app deploy"
+    "deploy": "shopify app deploy",
+    "lint": "biome check --write ."
   },
   "dependencies": {
     "@shopify/app": "^3.58.2",
     "@shopify/cli": "^3.64.1"
   },
-  "trustedDependencies": [
-    "@shopify/plugin-cloudflare"
-  ],
+  "trustedDependencies": ["@shopify/plugin-cloudflare"],
   "author": "suryarajendhran",
   "private": true,
-  "workspaces": [
-    "extensions/*"
-  ]
+  "workspaces": ["extensions/*"],
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3"
+  }
 }

@@ -1,8 +1,8 @@
 import {
-  reactExtension,
   Banner,
   BlockStack,
   Text,
+  reactExtension,
   useApi,
   useTranslate,
 } from "@shopify/ui-extensions-react/checkout";
